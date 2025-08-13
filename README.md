@@ -18,3 +18,4 @@ Features and Highlights:
 
 Credits:
     Poem: Milton Duarte
+    Project developed during Curso em Video classes, HTML & CSS 
