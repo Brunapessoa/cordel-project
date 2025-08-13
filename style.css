@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --whiteTxtL: rgb(255, 252, 238);
+    --backgTxt: rgba(41, 39, 39, 0.822);
+    --fontH1: "Abril Fatface", serif;
+    --fontTxt: "Patrick Hand", cursive;
+    --font00: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(172, 147, 107, 0.527);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgb(252, 239, 224);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fontH1);
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 8vw;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+header > p {
+    padding-bottom: 40px;
+}
+
+a{
+    color: rgb(252, 239, 224);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: var(--fontTxt);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vw;
+    text-align: justify;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.regularTxt > p {
+    padding-bottom: 2em;
+}
+
+.regularTxt{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#imgParal01{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    margin: 25px -30px;
+    padding: 25px 10px;
+}
+
+#imgParal01 > p {
+    background-color: var(--backgTxt);
+    color: var(--whiteTxtL);
+    display: inline-block;
+    /* width: 325px; */
+    margin: 5px;
+    padding: 10px;
+}
+
+#imgParal02{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    margin: 25px -30px;
+    padding: 25px 10px;
+}
+
+#imgParal02 > p {
+    background-color: var(--backgTxt);
+    color: var(--whiteTxtL);
+    /* width: 325px; */
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(105, 105, 105, 0.562);
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center;
+    padding: 5px;
+}
