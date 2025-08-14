@@ -68,7 +68,7 @@ main{
 }
 
 #imgParal01{
-    background-image: url('imagens/background001.jpg');
+    background-image: url('images/background001.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -89,7 +89,7 @@ main{
 }
 
 #imgParal02{
-    background-image: url('imagens/background002.jpg');
+    background-image: url('images/background002.jpg');
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
